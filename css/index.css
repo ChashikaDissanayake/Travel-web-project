@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.nav1 ul li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav1 ul li a:hover{
+    color: #09f8f8;
+}
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+.far{
+    color: #ff6363;
+
+}
+.nav_links li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.banner {
+    background:url(../image/bannerIMG.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 1000px;
+}
+
+.container{
+    justify-content: start;
+    color: aliceblue;
+    font-weight: 700;
+}
+#discover{
+    margin-top: 10%;
+    margin-left:10%;
+
+
+}
+#p1{
+    padding-left: 63px;
+    font-size: 18px;
+}
+
+.inline {
+    display:flex;
+}
+.mb-1{
+    margin-left: 9.5%;
+}
+.mb-3{
+    margin-left:15%;
+}
+#searchbtn{
+    background: #ff6363;
+    border-style: none;
+    padding: 10px 20px;
+    margin-top:27px;
+}
+#searchbtn:hover{
+   background-color: #ff4343;
+}
+.logo{
+    width:250px;
+    height:100px ;
+}
+
+
+.box1{
+    margin-top: 5%;
+    color: #000000;
+    width: 85%;
+    height:300px;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1{
+   box-shadow: #050528;
+}
+
+.box2{
+    color:black;
+    width: 85%;
+    height:300px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#beniFit{
+    margin-left: 5%;
+    padding-top: 30px;
+
+}
+.img1{
+    width: 100px;
+    height:100px;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.img2{
+    width: 100px;
+    height:100px;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.img3{
+    width: 100px;
+    height:100px;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.p2{
+    margin-left: 20%;
+    margin-top: 5%;
+    font-size: 18px;
+    weight:700;
+}
+
+.para_dix_1{
+ weight: 400;
+}
+
+#btnl3{
+    background: #ff6363;
+    border-style: none;
+    margin-top: 11.5%;
+    margin-left: 15px;
+    padding: 10px 20px;
+}
+#btnl3:hover{
+    background: #ff4343;
+}
+#btnl1{
+    background: #ff6363;
+    border-style: none;
+    margin-top: -4%;
+    margin-left: 16%;
+    padding: 10px 20px;
+}
+#btnl1:hover{
+    background: #ff4343;
+}
+#btnl2{
+    background: #ff6363;
+    border-style: none;
+    margin-top: 6.5%;
+    margin-left: 15px;
+    padding: 10px 20px;
+}
+#btnl2:hover{
+    background: #ff4343;
+}
+
+.img4{
+    width: 615px;
+    height: 300px;
+    margin-top: 4%;
+    margin-bottom:4%;
+}
+
+.img6{
+    width: 400px;
+    height: 400px;
+}
+
+.tour{
+    display: flex;
+    justify-content: space-around;
+
+}
+.tour li{
+    display: inline-block;
+    padding: 10px 10px;
+}
+.imgtour{
+    width: 400px;
+    height: 400px;
+
+}
+.tour2{
+    display: flex;
+    justify-content: space-around;
+
+}
+.tour2 li{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+#nuwa{
+    margin-top: 30%;
+}
+
+#jaffna{
+
+}
+.h6{
+    margin-bottom: 35px;
+}
+.h7{
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+.img5{
+    margin-top: 20%;
+    height: 400px;
+    width: 612px;
+}
+#land{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+#the_sri_lanka{
+
+}
+.img7{
+    margin-top: 13%;
+    height: 400px;
+    width: 612px;
+}
+#the_best{
+    margin-top: 30%;
+    margin-left: 10%;
+}
+#arow{
+    display: inline-flex;
+    margin-left: 20%;
+    color: #ff6363;
+    font-weight: bold;
+}
+#view2 {
+    margin-left: 10%;
+    background: #ff6363;
+    border-style: none;
+    padding:10px 10px;
+}
+#view2:hover{
+    background: #ff4343;
+}
+
+#ourTours{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+
+#hart{
+    display: inline-flex;
+    margin-left:40%;
+    margin-top: 4%;
+    color: #ff6363;
+}
+#liks{
+    display: inline-flex;
+    margin-left:2%;
+    margin-top: 4%;
+
+}
+#hart1{
+    display: inline-flex;
+    margin-left:40%;
+    color: #ff6363;
+
+
+}
+#liks1{
+    display: inline-flex;
+    margin-left:2%;
+
+
+}
+#hart3{
+    display: inline-flex;
+    margin-left:40%;
+    color: #ff6363;
+
+}
+#liks3{
+    display: inline-flex;
+    margin-left:2%;
+}
+
+.h5{
+    margin-top: 4%;
+}
+
+#btnseemore{
+    background-color: #ff6363;
+    padding: 10px 10px;
+    border-style: none;
+}
+#btnseemore:hover{
+    background: #ff4343;
+}
+
+#jaffna{
+    margin-bottom: 4%;
+}
+#kithul{
+    margin-bottom: 1.4%;
+}
+
+.banner1{
+    background: url("../image/Group 75.png") no-repeat;
+    height: 800px;
+    background-size: cover;
+    margin-top: 5%;
+}
+.box3{
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    margin-top: 20%;
+    margin-left: 40%;
+}
+
+#contact{
+    margin-left: 50px;
+}
+#or{
+    margin-left: 50px;
+}
+
+#address{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 50px;
+}
+#tp{
+    margin-left: 7%;
+}
+#sty{
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #ff6363;
+    font-weight: bold;
+}
+.mb-3{
+    margin-left: 50px;
+    margin-right:100px;
+
+}
+#emailinput{
+
+}
+#sumit4 {
+    display: flex;
+    background: #ff6363;
+    padding: 10px 10px;
+    border-style: none;
+}
+#sumit4:hover{
+    background: #ff4343;
+}
+#more_about{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.box4{
+    width: 100%;
+    height: 300px;
+    background: #060617;
+    margin-top: 10%;
+
+
+}
+
+.footer-rigth{
+    display: flex;
+    margin-left:20% ;
+}
+
+.footer-rigth  li {
+    list-style: none;
+
+    margin-top: 10%;
+}
+.footer-rigth ul li {
+    list-style: none;
+}
+.footer-rigth ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 0;
+}
+.footer-rigth ul li a:hover{
+    color: #09f8f8;
+
+}
+.footer{
+    display: flex;
+}
+
+#fot1{
+    margin-top: 10%;
+    color: white;
+}
+.socail_media a{
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.socail_media a:hover{
+   color: #48fff0;
+}
+
+.socail_media {
+    margin-left: 21%;
+}
+#fotpra{
+
+    color: white;
+
+}
+.box5{
+    width: 100%;
+    height: 700px;
+    background-color: #050528;
+    margin-top: 5%;
+}
+#video1{
+    width: 1520px;
+    height: auto;
+}
